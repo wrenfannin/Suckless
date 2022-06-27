@@ -1,0 +1,14 @@
+XF86AudioLowerVolume
+	pamixer --decrease 5 
+
+XF86AudioRaiseVolume
+	pamixer --increase 5
+
+XF86AudioMute
+	pamixer -t
+
+XF86MonBrightnessUp
+	brightnessctl -d intel_backlight s +100
+
+XF86MonBrightnessDown
+	brightnessctl -d intel_backlight s 100-
