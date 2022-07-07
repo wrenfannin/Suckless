@@ -1,6 +1,6 @@
 # Suckless
 ## DWM and Dmenu source code with scripts included
-
+### Requires the Following
 - DWM
 - https://github.com/jonaburg/picom
 - SXHKD
