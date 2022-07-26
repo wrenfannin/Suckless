@@ -6,6 +6,8 @@
 - https://github.com/jonaburg/picom
 - SXHKD
 - DMENU
-!![newSS](https://user-images.githubusercontent.com/64269332/181005027-4d1f0443-30db-40e6-aeb6-9dc314e0fc65.png)
-[2022-07-08_09-50](https://user-images.githubusercontent.com/64269332/177955275-6173dd25-2fd5-4f6a-822c-6ee4d465fc36.png)
+![newSS](https://user-images.githubusercontent.com/64269332/181005027-4d1f0443-30db-40e6-aeb6-9dc314e0fc65.png)
+
+![2022-07-08_09-50](https://user-images.githubusercontent.com/64269332/177955275-6173dd25-2fd5-4f6a-822c-6ee4d465fc36.png)
+
 ![2022-06-27_20-44](https://user-images.githubusercontent.com/64269332/176023007-91d8703c-81d0-4091-81c5-0154d62af33c.png)
