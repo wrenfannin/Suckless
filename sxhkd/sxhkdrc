@@ -12,3 +12,6 @@ XF86MonBrightnessUp
 
 XF86MonBrightnessDown
 	brightnessctl -d intel_backlight s 100-
+
+XF86Audio{Play,Stop,Prev,Next}
+  playerctl {play,pause,previous,next}
