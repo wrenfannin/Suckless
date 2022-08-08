@@ -103,3 +103,5 @@ alias vim="nvim"
 alias reboot="sudo reboot"
 alias shutdown="sudo shutdown now"
 alias nmtui='sudo nmtui'
+
+export PS1="%F{blue}%~%f %(?.%F{green}|%f.%F{red}|%f) "
