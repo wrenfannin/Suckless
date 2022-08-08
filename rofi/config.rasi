@@ -1,0 +1,14 @@
+configuration {
+modi: "window,drun,ssh";
+font: "Iosevka Nerd Font 12";
+/*	location: 0;*/
+/*	yoffset: 0;*/
+/*	xoffset: 0;*/
+show-icons: true;
+icon-theme: "Deepin";
+drun-display-format: "{name}";
+display-window: "Windows";
+/* display-ssh: "SSH";*/
+display-drun: "Applications";
+}
+@theme "/home/wren/.config/rofi/01.rasi"

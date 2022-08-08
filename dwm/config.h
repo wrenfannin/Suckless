@@ -19,7 +19,7 @@ static const char *fonts[]          = { "Iosevka Nerd Font:size=10", "fontawesom
 static const char dmenufont[]       = "Iosevka Nerd Font:size=10";
 static const char col_gray1[]       = "#222e3d";
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
+static const char col_gray3[]       = "#8ea9c7";
 static const char col_gray4[]       = "#16161e";
 static const char col_border[]          = "#222e3d";
 static const char col_cyan[]        = "#8ea9c7";
@@ -85,7 +85,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_cyan, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[] = {"alacritty",NULL};
-static const char *roficmd[] = {"rofi" "-show" "drun",NULL};
+static const char *roficmd[] = {"rofi", "-show", "drun",NULL};
 
 #include "movestack.c"
 static Key keys[] = {
@@ -95,8 +95,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
-	{ Mod1Mask,                     XK_i,      incnmaster,     {.i = +1 } },
-	{ Mod1Mask,                     XK_d,      incnmaster,     {.i = -1 } },
+	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
+	{ MODKEY|Mod1Mask,              XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
   { MODKEY|ShiftMask,             XK_j,      movestack,      {.i = +1 } },
