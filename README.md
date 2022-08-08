@@ -5,7 +5,7 @@
 - DWM
 - https://github.com/jonaburg/picom
 - SXHKD
--DMENU
+- DMENU
 
 ![cyberpunk](https://user-images.githubusercontent.com/64269332/183400347-8f5712e3-3e9b-460c-91f0-140271681720.png)
 
