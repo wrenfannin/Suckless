@@ -1,5 +1,5 @@
 # Suckless
-## DWM and Dmenu source code with scripts included
+## My DWM rice and supporting software
 #### See Also https://github.com/wrenfannin/dots
 ### Requires the Following
 - DWM
