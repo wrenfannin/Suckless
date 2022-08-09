@@ -1,11 +1,16 @@
 # Suckless
-## DWM and Dmenu source code with scripts included
+## My DWM rice and supporting software
 #### See Also https://github.com/wrenfannin/dots
 ### Requires the Following
 - DWM
 - https://github.com/jonaburg/picom
 - SXHKD
 - DMENU
+
+![image](https://user-images.githubusercontent.com/64269332/183739632-9d35cccf-fa0b-46f3-9476-66e46c774121.png)
+
+![cyberpunk](https://user-images.githubusercontent.com/64269332/183400347-8f5712e3-3e9b-460c-91f0-140271681720.png)
+
 ![newSS](https://user-images.githubusercontent.com/64269332/181005027-4d1f0443-30db-40e6-aeb6-9dc314e0fc65.png)
 
 ![2022-07-08_09-50](https://user-images.githubusercontent.com/64269332/177955275-6173dd25-2fd5-4f6a-822c-6ee4d465fc36.png)
