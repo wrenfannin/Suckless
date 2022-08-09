@@ -17,13 +17,13 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Iosevka Nerd Font:size=10", "fontawesome:size=10" };
 static const char dmenufont[]       = "Iosevka Nerd Font:size=10";
-static const char col_gray1[]       = "#C76B57";
-static const char col_gray2[]       = "#030305";
-static const char col_gray3[]       = "#ED606B";
+static const char col_gray1[]       = "#5B8E7D";
+static const char col_gray2[]       = "#5B8E7D";
+static const char col_gray3[]       = "#BC4b51";
 
-static const char col_gray4[]       = "#780b1f";
-static const char col_border[]          = "#C76B57";
-static const char col_cyan[]        = "#ED606B";
+static const char col_gray4[]       = "#16161e";
+static const char col_border[]          = "#5B8E7D";
+static const char col_cyan[]        = "#BC4B51";
 //static const char col_gray1[]       = "#222e3d";
 //static const char col_gray2[]       = "#444444";
 //static const char col_gray3[]       = "#8ea9c7";
@@ -32,8 +32,8 @@ static const char col_cyan[]        = "#ED606B";
 //static const char col_cyan[]        = "#8ea9c7";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray2, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_gray4  },
+	[SchemeNorm] = { col_gray4, col_gray1, col_gray2 },
+	[SchemeSel]  = { col_gray4, col_cyan,  col_gray3  },
 };
 
 /* tagging */
