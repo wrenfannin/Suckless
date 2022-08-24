@@ -3,15 +3,24 @@
 export _JAVA_AWT_WM_NONREPARENTING=1
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
-plugins=(... zsh-autosuggestions ...)
 cat ~/.cache/wal/sequences
 source ~/.cache/wal/colors-tty.sh
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#8ea9c7,bg=grey,bold,"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#d7a84c,bg=grey,bold,"
+source /home/wren/antigen.zsh
+antigen bundle git
+antigen bundle heroku
+antigen bundle pip
+antigen bundle lein
+antigen bundle command-not-found
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen apply
 
-ZSH_AUTOSUGGEST_STRATEGY="history" 
+ZSH_AUTOSUGGEST_STRATEGY="completion" 
 # Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
+# Case-sensitive completion must be off. _ and - will be interchangeable
+./fetch.sh
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment one of the following lines to change the auto-update behavior
