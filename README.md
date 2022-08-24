@@ -7,6 +7,8 @@
 - SXHKD
 - DMENU
 
+![updatedcyberpunk](https://user-images.githubusercontent.com/64269332/183755087-bdb3eab0-a05c-40c1-96b3-c825f108e1ab.png)
+
 ![image](https://user-images.githubusercontent.com/64269332/183739632-9d35cccf-fa0b-46f3-9476-66e46c774121.png)
 
 ![cyberpunk](https://user-images.githubusercontent.com/64269332/183400347-8f5712e3-3e9b-460c-91f0-140271681720.png)
