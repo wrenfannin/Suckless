@@ -15,7 +15,7 @@ static const unsigned int gappov    = 5;       /* vert outer gap between windows
 static       int smartgaps          = 1;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Iosevka Nerd Font:size=10", "fontawesome:size=10" };
+static const char *fonts[]          = { "deserted :size=10", "fontawesome:size=10" };
 static const char dmenufont[]       = "Iosevka Nerd Font:size=10";
 static const char col_gray1[]       = "#5B8E7D";
 static const char col_gray2[]       = "#5B8E7D";
