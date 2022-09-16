@@ -96,6 +96,7 @@ alias vim="nvim"
 alias reboot="sudo reboot"
 alias shutdown="sudo shutdown now"
 alias nmtui='sudo nmtui'
+alias htop ='btop'
 wal-tile() {
     wal -n -i "$@"
     nitrogen --restore
